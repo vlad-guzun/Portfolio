@@ -2,6 +2,18 @@ import Image from "next/image"
 
 const skills = [
   {
+    name: 'HTML',
+    img: '/html.avif',
+  },
+  {
+    name: 'CSS',
+    img: '/css.avif'
+  },
+  {
+    name: 'Tailwind',
+    img: '/tailwind.avif',
+  },
+  {
     name: 'Typescript',
     img: '/typescript.avif',
   },
