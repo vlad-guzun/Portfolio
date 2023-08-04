@@ -12,7 +12,8 @@ const Footer = () => {
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
       <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
-          $2023 vlad_guzun<a href="/" className="hover:underline"></a>
+          <p className='text-pink-800 font-bold'>{'<vlad_guzun/>'}</p>
+          <a href="/" className="hover:underline"></a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a href="https://github.com/vlad-guzun" rel="noreferrer" target="_blank">
@@ -22,13 +23,9 @@ const Footer = () => {
             />
           </a>
         </div>
-        <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-          <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDZPJHJSNGqXdQBFnwnVnjdfBzhBHGSszPzjcWkRCcZPPCbGMBGfbcrDTWPBtvXxBWWjNPC" rel="noreferrer" target="_blank">
-            <BiLogoGmail
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-              size={30}
-            />
-          </a>
+        <div className='flex flex-row items-center justify-center space-x-2 mb-1'>
+          <BiLogoGmail />
+          <p>vladguzun20022@gmail.com</p>
         </div>
       </div>
     </footer>

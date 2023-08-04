@@ -1,15 +1,62 @@
-import React from "react"
+import Image from "next/image"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS/SCSS/Tailwind" },
-  { skill: "Git/GitHub" },
-  { skill: "TypeScript/Javascript" },
-  { skill: "React/Vue/Angular/Next.js" },
-  {skill: "NodeJs/ExpressJs/NPM"},
-  { skill: "MongoDB/PostgreSQL" },
-  { skill: 'State Management'},
-  { skill: 'Docker'},
+  {
+    name: 'Typescript',
+    img: '/typescript.avif',
+  },
+  {
+    name: 'Javascript',
+    img: '/javascript.avif',
+  },
+  {
+    name: 'React',
+    img: '/react.png',
+  },
+  {
+    name: 'Redux',
+    img: '/redux.avif',
+  },
+  {
+    name: 'Next.js',
+    img: '/nextjs.png',
+  },
+  {
+    name: 'Angular',
+    img: '/angular.avif',
+  },
+  {
+    name: 'NodeJs',
+    img: '/nodejs2.avif',
+  },
+  {
+    name: 'ExpressJs',
+    img: '/expressjs.png',
+  },
+  {
+    name: 'MongoDB',
+    img: '/mongo2.avif',
+  },
+  {
+    name: 'PostgreSQL',
+    img: '/postgresql.avif',
+  },
+  {
+    name: 'GitHub',
+    img: '/github.avif',
+  },
+  {
+    name: 'Git',
+    img: '/git.avif',
+  },
+  {
+    name: 'Powershell',
+    img: '/powershell.avif',
+  },
+  {
+    name: 'Office',
+    img: '/office2.avif',
+  }
 ]
 
 const AboutSection = () => {
@@ -61,12 +108,10 @@ const AboutSection = () => {
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
                 return (
-                  <p
-                    key={idx}
-                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
-                  >
-                    {item.skill}
-                  </p>
+                  <div key={idx} className='bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold'>
+                    <p className=''>{item.name}</p>
+                    <Image src={item.img} alt="img" height={30} width={30}/>
+                  </div>
                 )
               })}
             </div>
