@@ -89,26 +89,15 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I am in the last year of university , with a BS in Informatics and have been working in this field 
-              for more than a year.
+              I am in the last year of university , with a BS in <b>Informatics</b> and have created web applications which are eye-friendly and responsive for more than 1 year.
             </p>
             <br />
-            <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From playing sports, traveling,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
-            </p>
             <br />
             <p>
-              I believe that you should{" "}
-              <span className="font-bold text-pink-800">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
+             I have a passion for
               technology and a desire to always push the limits of what is
               possible. I am excited to see where my career takes me and am
-              always open to new opportunities.
+              always <span className='font-bold text-pink-800'>open to new opportunities.</span>
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
