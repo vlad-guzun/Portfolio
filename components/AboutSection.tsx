@@ -56,7 +56,15 @@ const skills = [
   {
     name: 'Office',
     img: '/office2.avif',
-  }
+  },
+  {
+    name: 'GraphQL',
+    img: '/graphql.avif',
+  },
+  {
+    name: 'Networking',
+    img: '/networking.avif',
+  },
 ]
 
 const AboutSection = () => {
@@ -82,7 +90,7 @@ const AboutSection = () => {
             <br />
             <p>
               I am in the last year of university , with a BS in Informatics and have been working in this field 
-              for 1.5 years
+              for more than a year.
             </p>
             <br />
             <p>
