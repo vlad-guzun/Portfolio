@@ -6,12 +6,12 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "ChatGPT clone",
+    name: "REAL TIME CONVERSATIONS",
     description:
-      "Integrated the Open AI API and made my own ChatGPT, the application has been made using only Next.js 13 in Typescript",
-    image: "/chatGPT.jpg",
-    github: "https://github.com/vlad-guzun/ChatGPT-Clone",
-    link: "https://chat-gpt-clone-1gqgaq4px-vlad-guzun.vercel.app/",
+      "Made an applicationcfor mobile/PC where people can log in with Google/Github and have real time messaging, Tech used: Next.js13 (front) | Supabase with prisma(back) | Pusher(real-time functionality)",
+    image: "/REAL-TIME-CONV.png",
+    github: "https://github.com/vlad-guzun/REAL-TIME-CONVERSATION",
+    link: "https://real-time-conversation.vercel.app/",
   },
   {
     name: "Event management system",
