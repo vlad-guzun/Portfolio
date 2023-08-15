@@ -10,8 +10,8 @@ const projects = [
     description:
       "Made an application for mobile/PC where people can log in with Google/Github and have real time messaging, Tech used: Next.js13 (front) | Supabase with prisma(back) | Pusher(real-time functionality)",
     image: "/REAL-TIME-CONV.png",
-    github: "https://github.com/vlad-guzun/REAL-TIME-CONVERSATION",
-    link: "https://real-time-conversation.vercel.app/",
+    github: "https://github.com/vlad-guzun/WORKING-REAL-TIME-APP",
+    link: "https://working-real-time-app.vercel.app/ ",
   },
   {
     name: "Event management system",
