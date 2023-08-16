@@ -21,13 +21,6 @@ const projects = [
     github: "https://github.com/CoroianMarius/IBM-summer-practice-backend",
     link: "https://github.com/CoroianMarius/IBM-summer-practice",
   },
-  {
-    name: 'Todo app with Github/Google OAuth',
-    description: 'Created a todo application using only Next.js 13.4, for the backend I used the built in api router',
-    image: '/todo.jpg',
-    github: 'https://github.com/vlad-guzun/todo',
-    link: 'https://todos-ebon-iota.vercel.app/',
-  }
 ]
 
 const ProjectsSection = () => {

@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
         <div className='flex flex-row items-center justify-center space-x-2 mb-1'>
           <BiLogoGmail />
-          <p>vladguzun20022@gmail.com</p>
+          <p className='text-pink-600'>vladguzun20022@gmail.com</p>
         </div>
       </div>
     </footer>
