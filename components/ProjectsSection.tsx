@@ -14,6 +14,14 @@ const projects = [
     link: "https://working-real-time-app.vercel.app/ ",
   },
   {
+    name: "Shopping cart frontend",
+    description:
+      "Created the IU for a shopping cart, with some hardcoded data, soon I will implement the backend(in node.js), Tech used till now: Next.js ",
+    image: "/shopping-cart.png",
+    github: "https://github.com/vlad-guzun/shopping-cart-fontend",
+    link: "https://shopping-cart-fontend.vercel.app/ ",
+  },
+  {
     name: "Event management system",
     description:
       "Collaborated in a team of 4, during the IBM internship  a full stack application using Node/Express on backend and NextJs on the frontend, MongoDB as the database",
