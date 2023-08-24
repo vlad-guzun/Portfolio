@@ -16,7 +16,7 @@ const projects = [
   {
     name: "Shopping cart frontend",
     description:
-      "Created the IU(mobile/PC responsive) for a shopping cart, with some hardcoded data, soon I will implement the backend(in node.js), Tech used till now: Next.js ",
+      "Created the IU for a shopping cart, with some hardcoded data, state-management with redux",
     image: "/shopping-cart.PNG",
     github: "https://github.com/vlad-guzun/shopping-cart-fontend",
     link: "https://shopping-cart-fontend.vercel.app/ ",
