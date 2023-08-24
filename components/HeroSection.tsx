@@ -26,7 +26,7 @@ const HeroSection = () => {
               Web Developer{" "}
             </span>
             based in Timisoara,RO. Working towards creating web applications that
-            are responsive for both mobile and desktop.
+            are responsive for both mobile and PC.
           </p>
           <Link
             to="projects"
